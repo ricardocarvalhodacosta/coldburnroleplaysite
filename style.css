@@ -642,10 +642,10 @@ body {
     /* line 10, sass/libs/bootstrap-grid/_grid.scss */
     .container {
       width: 750px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     /* line 10, sass/libs/bootstrap-grid/_grid.scss */
     .container {
-      width: 970px; } }
+      width: 1170px; } }
   @media (min-width: 1200px) {
     /* line 10, sass/libs/bootstrap-grid/_grid.scss */
     .container {
@@ -1102,7 +1102,7 @@ body {
   /* line 60, sass/libs/bootstrap-grid/_mixins.scss */
   .col-sm-offset-12 {
     margin-left: 100%; } }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 27, sass/libs/bootstrap-grid/_mixins.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
@@ -1603,7 +1603,7 @@ body {
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* line 114, sass/libs/bootstrap-grid/_grid.scss */
   .visible-md {
     display: block !important; }
@@ -1620,17 +1620,17 @@ body {
   th.visible-md,
   td.visible-md {
     display: table-cell !important; } }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* line 188, sass/libs/bootstrap-grid/_grid.scss */
   .visible-md-block {
     display: block !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* line 193, sass/libs/bootstrap-grid/_grid.scss */
   .visible-md-inline {
     display: inline !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* line 198, sass/libs/bootstrap-grid/_grid.scss */
   .visible-md-inline-block {
     display: inline-block !important; } }
@@ -1675,7 +1675,7 @@ body {
   /* line 125, sass/libs/bootstrap-grid/_grid.scss */
   .hidden-sm {
     display: none !important; } }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   /* line 125, sass/libs/bootstrap-grid/_grid.scss */
   .hidden-md {
     display: none !important; } }
@@ -2100,9 +2100,11 @@ body {
   .discography-list li:last-child {
     border-bottom: none; }
 /* line 27, sass/layout/_sidebar.scss */
+@media screen and (max-width: 600px) {
 .discography-list .cover, .discography-list .detail {
   display: table-cell;
   vertical-align: middle; }
+}
 /* line 31, sass/layout/_sidebar.scss */
 .discography-list .cover {
   width: 124px;
@@ -2134,8 +2136,8 @@ body {
 
 .discography-list .regras{
   width: auto;
-  padding-left: 20px;
-  margin-left: -25px; }
+  padding-left: -30px;
+  margin-left: -30px; }
   /* line 44, sass/layout/_sidebar.scss */
   .discography-list .regras h3 {
     margin: 0;
@@ -2361,7 +2363,7 @@ body {
     /* line 109, sass/pages/_homepage.scss */
     .quote-slider blockquote p {
       font-size: 36px;
-      font-size: 2.25em;
+      font-size: 1.5em;
       color: white;
       font-weight: 300;
       line-height: normal; }
