@@ -2,6 +2,6 @@
 
 O site foi criado com o intuito de proporcionar uma experiência, mesmo que mínima, com o HTML5 e CSS;
 As páginas foram todas adaptadas para atender a demanda do projeto;
-O site está hospedado e para verifica-lo, basta acessar: http://coldburnroleplay.com.br
+O site está hospedado e para verifica-lo, basta acessar: [http://coldburnroleplay.com.br](https://coldburn.netlify.app/)
 
 image.png
